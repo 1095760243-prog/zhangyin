@@ -6,3 +6,6 @@ html2pdf.js
 portfolio_full.html
 张印个人作品集.pdf
 .DS_Store
+slides_16x9.html
+张印个人介绍.pdf
+*.pdf
