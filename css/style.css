@@ -162,9 +162,10 @@ footer p{font-size:.75rem;color:var(--stone);letter-spacing:.06em}
   .nav-links{display:none;flex-direction:column;gap:0;position:absolute;top:64px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:0}
   .nav-links.open{display:flex}
   .nav-links a{font-size:.95rem;padding:1rem 1.5rem;border-top:1px solid var(--line)}
+  nav{position:relative}
   .menu-toggle{display:block}
   /* Hero */
-  .hero{min-height:auto;padding:100px 0 50px}
+  .hero{min-height:auto;padding:24px 0 50px}
   .hero .container{grid-template-columns:1fr;gap:1.5rem}
   .hero h1{font-size:1.8rem}
   .hero .lead{font-size:.9rem}
@@ -182,7 +183,7 @@ footer p{font-size:.75rem;color:var(--stone);letter-spacing:.06em}
   .case-grid{grid-template-columns:1fr;gap:1.5rem}
   .case-card .card-body{padding:1.2rem}
   /* Case detail */
-  .case-hero{padding:110px 0 30px}
+  .case-hero{padding:24px 0 30px}
   .case-hero h1{font-size:1.6rem}
   .case-gallery{grid-template-columns:1fr}
   .case-content{padding:0 1.2rem 60px}
