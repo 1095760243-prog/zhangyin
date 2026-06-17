@@ -159,9 +159,10 @@ footer p{font-size:.75rem;color:var(--stone);letter-spacing:.06em}
   .section{padding:60px 0}
   .section-title{font-size:1.5rem}
   /* Nav */
-  .nav-links{display:none;position:fixed;top:64px;left:0;right:0;background:var(--bg);flex-direction:column;padding:1.5rem;gap:1rem;border-bottom:1px solid var(--line)}
+  .nav-links{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(247,245,242,.98);flex-direction:column;align-items:center;justify-content:center;gap:2rem;z-index:99}
   .nav-links.open{display:flex}
-  .menu-toggle{display:block}
+  .nav-links a{font-size:1.2rem}
+  .menu-toggle{display:block;z-index:101;position:relative}
   /* Hero */
   .hero{min-height:auto;padding:100px 0 50px}
   .hero .container{grid-template-columns:1fr;gap:1.5rem}
