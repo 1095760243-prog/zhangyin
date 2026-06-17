@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>悦达玖玺台 — 张印</title>
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head><body>
+<nav><div class="container"><a href="../index.html" class="logo">张印</a>
+<ul class="nav-links" id="navLinks"><li><a href="../index.html">首页</a></li><li><a href="../about.html">关于我</a></li><li><a href="../cases.html">案例</a></li><li><a href="../contact.html">联系</a></li></ul>
+<button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></button></div></nav>
+<section class="case-hero"><div class="container"><a href="../cases.html" class="back-link">&#8592; 返回案例列表</a>
+<h1>悦达玖玺台</h1><p class="case-meta">地产营销 / 高端住宅品牌包装</p></div></section>
+<article class="case-content">
+<h2>项目背景</h2><p>悦达玖玺台是高端改善型住宅项目，目标客群是对生活品质有高要求的城市中产以上人群。需要一套匹配产品调性的品牌包装和推广方案。</p>
+<div class="role-box"><h3>我的角色</h3><p>我的主要工作是品牌的视觉定位和推广策略制定。高端住宅的推广不能喊、不能急，越冷静越有力量。我建议客户减少传统广告投放，把预算转移到样板间体验和圈层活动上。做的物料注重材质和细节——光是楼书就打了十几版样，封面纸张反复对比。</p></div>
+
+<div class="case-gallery"><img src="../images/cases/slide20_01.png" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_02.png" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_03.png" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_04.png" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_05.png" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_06.png" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_07.jpg" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_08.jpg" alt="悦达玖玺台" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide20_09.jpg" alt="悦达玖玺台" onclick="openLightbox(this.src)"></div>
+</article>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><span class="close">&times;</span><img src="" id="lightboxImg"></div>
+<footer><div class="container"><p>张印 · 项目经理 / 品牌策划</p></div></footer>
+<script>function openLightbox(s){document.getElementById('lightboxImg').src=s;document.getElementById('lightbox').classList.add('active')}function closeLightbox(){document.getElementById('lightbox').classList.remove('active')}document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});</script>
+</body></html>

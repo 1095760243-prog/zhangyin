@@ -1,0 +1,8 @@
+node_modules/
+*.py
+*.pyc
+build_pdf.py
+html2pdf.js
+portfolio_full.html
+张印个人作品集.pdf
+.DS_Store

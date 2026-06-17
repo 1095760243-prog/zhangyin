@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>太白云境 — 张印</title>
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head><body>
+<nav><div class="container"><a href="../index.html" class="logo">张印</a>
+<ul class="nav-links" id="navLinks"><li><a href="../index.html">首页</a></li><li><a href="../about.html">关于我</a></li><li><a href="../cases.html">案例</a></li><li><a href="../contact.html">联系</a></li></ul>
+<button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></button></div></nav>
+<section class="case-hero"><div class="container"><a href="../cases.html" class="back-link">&#8592; 返回案例列表</a>
+<h1>太白云境</h1><p class="case-meta">地产营销 / 文旅地产整合推广</p></div></section>
+<article class="case-content">
+<h2>项目背景</h2><p>太白云境是位于秦岭北麓的文旅地产项目，需要做从品牌定位到销售物料的全套推广方案。文旅地产跟城市住宅的推广逻辑完全不同——卖的不是地段，是生活方式和稀缺资源。</p>
+<div class="role-box"><h3>我的角色</h3><p>我主导了项目的品牌定位和推广策略。通过调研发现目标客群对秦岭和太白山有很强的情感认同，于是把推广的核心锚点放在了山居生活方式上，而不是传统的户型图和价格表。宣传片拍了四季的山景和日常，销售物料也用了大量实景摄影而非效果图。</p></div>
+
+<div class="case-gallery"><img src="../images/cases/slide19_01.png" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_02.png" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_03.png" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_04.png" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_05.png" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_06.png" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_07.jpg" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_08.jpg" alt="太白云境" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide19_09.jpg" alt="太白云境" onclick="openLightbox(this.src)"></div>
+</article>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><span class="close">&times;</span><img src="" id="lightboxImg"></div>
+<footer><div class="container"><p>张印 · 项目经理 / 品牌策划</p></div></footer>
+<script>function openLightbox(s){document.getElementById('lightboxImg').src=s;document.getElementById('lightbox').classList.add('active')}function closeLightbox(){document.getElementById('lightbox').classList.remove('active')}document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});</script>
+</body></html>

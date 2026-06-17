@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>张印 — 个人网站</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="index.html" class="logo">张印</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="cases.html">案例</a></li>
+      <li><a href="contact.html">联系</a></li>
+    </ul>
+    <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div>
+      <div class="hero-tag">PROJECT MANAGER / PLANNER</div>
+      <h1>以策略驱动创意<br>用执行兑现承诺</h1>
+      <p class="lead">9年品牌策划，5年项目管理经验。从品牌推广、活动策划到展览展厅，从宣传品策划到地产营销，专注将复杂的项目拆解为可落地的路径，让每个环节有据可依、每份成果可量可见。</p>
+      <div class="stats">
+        <div><div class="stat-num">9+</div><div class="stat-label">年品牌策划</div></div>
+        <div><div class="stat-num">100+</div><div class="stat-label">落地项目</div></div>
+        <div><div class="stat-num">4</div><div class="stat-label">核心业务线</div></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/photo.png" alt="张印">
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--white)">
+  <div class="container">
+    <div class="section-label">核心竞争力</div>
+    <h2 class="section-title">不止于品牌策划，更在于品牌赋能</h2>
+    <div class="comp-grid">
+      <div class="comp-card">
+        <div class="comp-num">01</div>
+        <h3>甲乙方双视角 · 全链路闭环</h3>
+        <p>既在甲方带过品牌团队，也在乙方管过全国事业部。比纯乙方更懂客户决策逻辑，比纯甲方更懂如何逼出交付质量。</p>
+      </div>
+      <div class="comp-card">
+        <div class="comp-num">02</div>
+        <h3>多元客户覆盖 · 选择即信任</h3>
+        <p>服务政府、央企、互联网大厂、外资品牌等不同类型客户，核心客户持续合作多年，九洲、电建、铜川政府、梦幻西游均为多次合作。</p>
+      </div>
+      <div class="comp-card">
+        <div class="comp-num">03</div>
+        <h3>创意与纪律 · 两端自由切换</h3>
+        <p>能孵化文旅IP、操盘游戏营销，也能扛起几百人零容错的政治会议。在发散创意与严谨执行之间找到最优解。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-label">服务领域</div>
+    <h2 class="section-title">四大核心业务</h2>
+    <p class="section-desc">横跨展览展示、品牌推广、活动策划、地产营销四大赛道，从策略到落地全链路把控。</p>
+    <div class="cat-grid">
+      <a href="cases.html?filter=exhibition" class="cat-card">
+        <div class="cat-icon">▣</div>
+        <h3>展览展示</h3>
+        <p>企业展厅、主题展馆、科技体验中心——策划、设计、施工一体化</p>
+        <div class="cat-count">5 个案例 →</div>
+      </a>
+      <a href="cases.html?filter=brand" class="cat-card">
+        <div class="cat-icon">◇</div>
+        <h3>品牌推广</h3>
+        <p>IP孵化、品牌策略、新媒体运营、跨界营销——让品牌被看见</p>
+        <div class="cat-count">5 个案例 →</div>
+      </a>
+      <a href="cases.html?filter=event" class="cat-card">
+        <div class="cat-icon">○</div>
+        <h3>活动策划</h3>
+        <p>品牌发布、全国巡演、行业大会、线下体验——从创意到执行</p>
+        <div class="cat-count">4 个案例 →</div>
+      </a>
+      <a href="cases.html?filter=property" class="cat-card">
+        <div class="cat-icon">△</div>
+        <h3>地产营销</h3>
+        <p>楼盘推广、宣传片、品牌包装、供应商大会——读懂土地的价值</p>
+        <div class="cat-count">4 个案例 →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--ink);color:#fff;text-align:center">
+  <div class="container">
+    <div class="section-label" style="color:var(--gold)">期待合作</div>
+    <h2 class="section-title" style="color:#fff">做能落地的创意，想能兑现的策划</h2>
+    <div style="display:flex;gap:3rem;justify-content:center;flex-wrap:wrap">
+      <div><div style="font-size:.7rem;color:var(--gold);letter-spacing:.1em;margin-bottom:.3rem">邮箱</div><div style="font-size:1.1rem">1095760243@qq.com</div></div>
+      <div><div style="font-size:.7rem;color:var(--gold);letter-spacing:.1em;margin-bottom:.3rem">电话</div><div style="font-size:1.1rem">13572259281</div></div>
+      <div><div style="font-size:.7rem;color:var(--gold);letter-spacing:.1em;margin-bottom:.3rem">所在地</div><div style="font-size:1.1rem">西安</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>张印 · 项目经理 / 品牌策划 · zhangyin@example.com</p>
+  </div>
+</footer>
+
+</body>
+</html>

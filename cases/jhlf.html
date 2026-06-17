@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>际华兰府 — 张印</title>
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head><body>
+<nav><div class="container"><a href="../index.html" class="logo">张印</a>
+<ul class="nav-links" id="navLinks"><li><a href="../index.html">首页</a></li><li><a href="../about.html">关于我</a></li><li><a href="../cases.html">案例</a></li><li><a href="../contact.html">联系</a></li></ul>
+<button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></button></div></nav>
+<section class="case-hero"><div class="container"><a href="../cases.html" class="back-link">&#8592; 返回案例列表</a>
+<h1>际华兰府</h1><p class="case-meta">地产营销 / 品质住宅全案推广</p></div></section>
+<article class="case-content">
+<h2>项目背景</h2><p>际华兰府主打品质住宅概念，在竞争激烈的西安市场需要差异化定位来吸引目标客群。周边竞品项目扎堆，产品本身差异化不大。</p>
+<div class="role-box"><h3>我的角色</h3><p>我发现际华兰府的产品在教育配套上有隐性优势——虽然开发商不想主打学区房概念，但周边确实有两所口碑不错的学校。我建议的策略是：不直接说学区，但通过生活场景的呈现——比如宣传片里拍了孩子在社区里安全玩耍、步行上学的日常——让目标客群自己建立认知。</p></div>
+
+<div class="case-gallery"><img src="../images/cases/slide21_01.png" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_02.png" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_03.png" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_04.png" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_05.jpg" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_06.jpg" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_07.jpg" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_08.jpg" alt="际华兰府" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide21_09.jpg" alt="际华兰府" onclick="openLightbox(this.src)"></div>
+</article>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><span class="close">&times;</span><img src="" id="lightboxImg"></div>
+<footer><div class="container"><p>张印 · 项目经理 / 品牌策划</p></div></footer>
+<script>function openLightbox(s){document.getElementById('lightboxImg').src=s;document.getElementById('lightbox').classList.add('active')}function closeLightbox(){document.getElementById('lightbox').classList.remove('active')}document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});</script>
+</body></html>

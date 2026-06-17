@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>案例 — 张印</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="index.html" class="logo">张印</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="cases.html" class="active">案例</a></li>
+      <li><a href="contact.html">联系</a></li>
+    </ul>
+    <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="case-hero">
+  <div class="container">
+    <h1>案例作品</h1>
+    <p class="case-meta">18个精选项目 · 四大业务线</p>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container">
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="exhibition">展览展示</button>
+      <button class="filter-btn" data-filter="brand">品牌推广</button>
+      <button class="filter-btn" data-filter="event">活动策划</button>
+      <button class="filter-btn" data-filter="property">地产营销</button>
+    </div>
+
+    <div class="case-grid" id="caseGrid">
+
+      <!-- Exhibition -->
+      <a href="cases/jz-life-science.html" class="case-card" data-cat="exhibition">
+        <div class="card-img"><img src="images/cases/slide05_05.jpg" alt="九洲集团生命科技馆"></div>
+        <div class="card-body"><div class="card-tag">展览展示</div><h3>九洲集团 · 生命科技馆</h3><div class="card-sub">企业科技展厅策划设计施工一体化</div></div>
+      </a>
+      <a href="cases/tc-peach.html" class="case-card" data-cat="exhibition">
+        <div class="card-img"><img src="images/cases/slide06_03.png" alt="铜川桃文化体验展厅"></div>
+        <div class="card-body"><div class="card-tag">展览展示</div><h3>铜川黄堡政府 · 桃文化体验展厅</h3><div class="card-sub">政府文旅主题展厅</div></div>
+      </a>
+      <a href="cases/xa-wxs.html" class="case-card" data-cat="exhibition">
+        <div class="card-img"><img src="images/cases/slide07_02.png" alt="王鑫生主题展"></div>
+        <div class="card-body"><div class="card-tag">展览展示</div><h3>雄安印象艺术馆 · 王鑫生主题展</h3><div class="card-sub">艺术主题展览策划与落地</div></div>
+      </a>
+      <a href="cases/xa-smart.html" class="case-card" data-cat="exhibition">
+        <div class="card-img"><img src="images/cases/slide08_05.jpg" alt="雄安智慧体验中心"></div>
+        <div class="card-body"><div class="card-tag">展览展示</div><h3>中国电建 · 雄安智慧体验中心</h3><div class="card-sub">央企智慧城市体验展厅</div></div>
+      </a>
+      <a href="cases/xa-robot.html" class="case-card" data-cat="exhibition">
+        <div class="card-img"><img src="images/cases/slide09_01.jpg" alt="机器人体验中心"></div>
+        <div class="card-body"><div class="card-tag">展览展示</div><h3>雄安新区 · 机器人体验中心</h3><div class="card-sub">政府科技体验馆</div></div>
+      </a>
+
+      <!-- Brand -->
+      <a href="cases/mjn-ip.html" class="case-card" data-cat="brand">
+        <div class="card-img"><img src="images/cases/slide10_07.png" alt="IP姜桃桃"></div>
+        <div class="card-body"><div class="card-tag">品牌推广</div><h3>孟姜女故里 · IP姜桃桃</h3><div class="card-sub">文旅IP从零孵化与运营</div></div>
+      </a>
+      <a href="cases/jz-cell-ip.html" class="case-card" data-cat="brand">
+        <div class="card-img"><img src="images/cases/slide11_05.jpg" alt="IP细胞系列"></div>
+        <div class="card-body"><div class="card-tag">品牌推广</div><h3>九洲集团 · IP细胞系列</h3><div class="card-sub">企业IP形象体系搭建</div></div>
+      </a>
+      <a href="cases/mepiform.html" class="case-card" data-cat="brand">
+        <div class="card-img"><img src="images/cases/slide12_03.png" alt="美皮护品牌推广"></div>
+        <div class="card-body"><div class="card-tag">品牌推广</div><h3>莫尼克集团 · 美皮护品牌推广</h3><div class="card-sub">外资医疗品牌中国市场推广</div></div>
+      </a>
+      <a href="cases/mhxy-20th.html" class="case-card" data-cat="brand">
+        <div class="card-img"><img src="images/cases/slide13_01.jpg" alt="梦幻西游二十周年"></div>
+        <div class="card-body"><div class="card-tag">品牌推广</div><h3>梦幻西游 · 二十周年品牌推广</h3><div class="card-sub">头部游戏IP二十周年整合营销</div></div>
+      </a>
+      <a href="cases/xa-dj-newmedia.html" class="case-card" data-cat="brand">
+        <div class="card-img"><img src="images/cases/slide14_02.png" alt="电建智汇城新媒体"></div>
+        <div class="card-body"><div class="card-tag">品牌推广</div><h3>雄安电建智汇城 · 新媒体运营</h3><div class="card-sub">产业园区新媒体矩阵搭建</div></div>
+      </a>
+
+      <!-- Event -->
+      <a href="cases/mg-14th.html" class="case-card" data-cat="event">
+        <div class="card-img"><img src="images/cases/slide15_01.jpg" alt="民革十四次代表大会"></div>
+        <div class="card-body"><div class="card-tag">活动策划</div><h3>民革第十四次代表大会</h3><div class="card-sub">全国性政治会议策划执行</div></div>
+      </a>
+      <a href="cases/baidu-car.html" class="case-card" data-cat="event">
+        <div class="card-img"><img src="images/cases/slide16_01.jpg" alt="百度汽车奇妙夜"></div>
+        <div class="card-body"><div class="card-tag">活动策划</div><h3>百度汽车 · 北京奇妙夜</h3><div class="card-sub">互联网大厂品牌发布活动</div></div>
+      </a>
+      <a href="cases/mhxy-datang.html" class="case-card" data-cat="event">
+        <div class="card-img"><img src="images/cases/slide17_01.png" alt="梦幻西游大唐不夜城"></div>
+        <div class="card-body"><div class="card-tag">活动策划</div><h3>梦幻西游 · 二十周年大唐不夜城发布</h3><div class="card-sub">头部IP文旅地标联合发布</div></div>
+      </a>
+      <a href="cases/mepiform-tour.html" class="case-card" data-cat="event">
+        <div class="card-img"><img src="images/cases/slide18_01.png" alt="美皮护全国巡演"></div>
+        <div class="card-body"><div class="card-tag">活动策划</div><h3>美皮护 · 儿童新品全国巡演</h3><div class="card-sub">外资品牌全国多城路演</div></div>
+      </a>
+
+      <!-- Property -->
+      <a href="cases/tbyj.html" class="case-card" data-cat="property">
+        <div class="card-img"><img src="images/cases/slide19_08.jpg" alt="太白云境"></div>
+        <div class="card-body"><div class="card-tag">地产营销</div><h3>太白云境</h3><div class="card-sub">文旅地产整合推广</div></div>
+      </a>
+      <a href="cases/ydjzt.html" class="case-card" data-cat="property">
+        <div class="card-img"><img src="images/cases/slide20_09.jpg" alt="悦达玖玺台"></div>
+        <div class="card-body"><div class="card-tag">地产营销</div><h3>悦达玖玺台</h3><div class="card-sub">高端住宅品牌包装</div></div>
+      </a>
+      <a href="cases/jhlf.html" class="case-card" data-cat="property">
+        <div class="card-img"><img src="images/cases/slide21_08.jpg" alt="际华兰府"></div>
+        <div class="card-body"><div class="card-tag">地产营销</div><h3>际华兰府</h3><div class="card-sub">品质住宅全案推广</div></div>
+      </a>
+      <a href="cases/qlyj.html" class="case-card" data-cat="property">
+        <div class="card-img"><img src="images/cases/slide22_04.png" alt="清凉云集"></div>
+        <div class="card-body"><div class="card-tag">地产营销</div><h3>清凉云集</h3><div class="card-sub">商业地产整合包装</div></div>
+      </a>
+
+    </div>
+
+    <div class="more-projects">
+      <h2 class="more-title">更多项目</h2>
+      <div class="more-grid">
+        <div class="more-col">
+          <h3>展览展示</h3>
+          <ul>
+            <li>电建地产北京馆</li><li>海德丽森企业展厅</li><li>北京农商行党建展厅</li>
+            <li>电建玖玺台工法馆</li><li>铜川黄堡派出所史展厅</li><li>黄堡镇历史馆</li><li>泾阳龙陂廉政主题公园</li>
+          </ul>
+        </div>
+        <div class="more-col">
+          <h3>宣传片</h3>
+          <ul>
+            <li>中国电建集团宣传片</li><li>电建地产五大赛道宣传片</li><li>中铁环境保护日宣传片</li>
+            <li>绿城海螺岛上岛宣传片</li><li>万科北京宣传片</li><li>空港星皓仕嘉宣传片</li><li>雄安印象艺术馆开幕概念片</li>
+          </ul>
+        </div>
+        <div class="more-col">
+          <h3>品牌推广 · 活动策划</h3>
+          <ul>
+            <li>奇瑞星纪元ET北京发布</li><li>三原高新区新媒体推广</li><li>诚域集团互联网医疗推广</li>
+            <li>科发源信息流推广</li><li>雄安奥特莱斯开业活动</li><li>三原高新区启动会</li><li>电建地产供应商大会</li>
+          </ul>
+        </div>
+        <div class="more-col">
+          <h3>地产推广</h3>
+          <ul>
+            <li>电建智汇城推广服务</li><li>创新名城推广服务</li><li>云河赋推广服务</li>
+            <li>诚域西北健康城推广服务</li><li>东原阅境推广服务</li><li>绿城桂语江南推广服务</li><li>中海新都会推广服务</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>张印 · 项目经理 / 品牌策划</p>
+  </div>
+</footer>
+
+<script>
+const btns=document.querySelectorAll('.filter-btn');
+const cards=document.querySelectorAll('.case-card');
+btns.forEach(b=>b.addEventListener('click',()=>{
+  btns.forEach(x=>x.classList.remove('active'));b.classList.add('active');
+  const cat=b.dataset.filter;
+  cards.forEach(c=>c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none');
+}));
+const p=new URLSearchParams(location.search);
+const f=p.get('filter');
+if(f){const btn=document.querySelector(`[data-filter="${f}"]`);if(btn)btn.click();}
+</script>
+
+</body>
+</html>

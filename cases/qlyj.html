@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>清凉云集 — 张印</title>
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head><body>
+<nav><div class="container"><a href="../index.html" class="logo">张印</a>
+<ul class="nav-links" id="navLinks"><li><a href="../index.html">首页</a></li><li><a href="../about.html">关于我</a></li><li><a href="../cases.html">案例</a></li><li><a href="../contact.html">联系</a></li></ul>
+<button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></button></div></nav>
+<section class="case-hero"><div class="container"><a href="../cases.html" class="back-link">&#8592; 返回案例列表</a>
+<h1>清凉云集</h1><p class="case-meta">地产营销 / 商业地产整合包装</p></div></section>
+<article class="case-content">
+<h2>项目背景</h2><p>清凉云集是商业综合体项目，需要招商推广和消费者端品牌传播两套策略并行。商业地产的痛点是：招商需要专业感，C端传播需要烟火气，如何在同一个品牌体系下兼容是核心挑战。</p>
+<div class="role-box"><h3>我的角色</h3><p>我的策略是做两套视觉语言：面向招商端的物料侧重数据和区位优势，简洁专业；面向消费者的内容则充满生活气息，美食、亲子、社交等场景轮番上阵。核心的VI体系统一不变，但内容层面的表达方式因受众而异。</p></div>
+
+<div class="case-gallery"><img src="../images/cases/slide22_01.png" alt="清凉云集" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide22_02.png" alt="清凉云集" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide22_03.png" alt="清凉云集" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide22_04.png" alt="清凉云集" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide22_05.png" alt="清凉云集" onclick="openLightbox(this.src)">
+<img src="../images/cases/slide22_06.png" alt="清凉云集" onclick="openLightbox(this.src)"></div>
+</article>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><span class="close">&times;</span><img src="" id="lightboxImg"></div>
+<footer><div class="container"><p>张印 · 项目经理 / 品牌策划</p></div></footer>
+<script>function openLightbox(s){document.getElementById('lightboxImg').src=s;document.getElementById('lightbox').classList.add('active')}function closeLightbox(){document.getElementById('lightbox').classList.remove('active')}document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});</script>
+</body></html>
