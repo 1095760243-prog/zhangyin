@@ -20,7 +20,7 @@ img{max-width:100%;height:auto;display:block}
 /* === NAV === */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
-  background:rgba(247,245,242,.92);backdrop-filter:blur(12px);
+  background:rgba(247,245,242,.98);backdrop-filter:blur(12px);
   border-bottom:1px solid var(--line);padding:0;
 }
 nav .container{display:flex;align-items:center;justify-content:space-between;height:64px}
@@ -159,10 +159,10 @@ footer p{font-size:.75rem;color:var(--stone);letter-spacing:.06em}
   .section{padding:60px 0}
   .section-title{font-size:1.5rem}
   /* Nav */
-  .nav-links{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(247,245,242,.98);flex-direction:column;align-items:center;justify-content:center;gap:2rem;z-index:99}
+  .nav-links{display:none;flex-direction:column;gap:0;position:absolute;top:64px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:0}
   .nav-links.open{display:flex}
-  .nav-links a{font-size:1.2rem}
-  .menu-toggle{display:block;z-index:101;position:relative}
+  .nav-links a{font-size:.95rem;padding:1rem 1.5rem;border-top:1px solid var(--line)}
+  .menu-toggle{display:block}
   /* Hero */
   .hero{min-height:auto;padding:100px 0 50px}
   .hero .container{grid-template-columns:1fr;gap:1.5rem}
